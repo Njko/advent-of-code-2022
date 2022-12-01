@@ -8,7 +8,7 @@ fun main() {
         var weight = 0
         var maxWeight = 0
         input.forEach { line ->
-            if (line.isNotEmpty()) {
+            if (line.isNotEmpty()) { // last empty line in original input was ignored
                 weight += line.toInt()
             } else {
                 if (!excluding.contains(weight) && max(weight, maxWeight) == weight) {

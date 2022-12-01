@@ -3,3 +3,5 @@
 build
 src/**/*.txt
 /local.properties
+
+.DS_Store
