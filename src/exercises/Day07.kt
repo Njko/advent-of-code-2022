@@ -1,5 +1,5 @@
 // ktlint-disable filename
-package dayTemplate
+package exercises
 
 import readInput
 
@@ -13,14 +13,14 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("DayTemplate_test")
+    val testInput = readInput("Day07_test")
     println("Test results:")
     println(part1(testInput))
     check(part1(testInput) == 0)
     println(part2(testInput))
     check(part2(testInput) == 0)
 
-    val input = readInput("DayTemplate")
+    val input = readInput("Day07")
     println("Final results:")
     println(part1(input))
     check(part1(input) == 0)

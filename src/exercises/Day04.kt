@@ -1,5 +1,5 @@
 // ktlint-disable filename
-package day04
+package exercises
 
 import readInput
 

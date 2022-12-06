@@ -1,5 +1,5 @@
 // ktlint-disable filename
-package day01
+package exercises
 import readInput
 import kotlin.math.max
 
