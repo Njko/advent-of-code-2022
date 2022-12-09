@@ -4,6 +4,7 @@ package exercises
 import readInput
 
 fun main() {
+    // Can be solved with: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/windowed-sequence.html
     fun searchIndexOfMarker(data: String, markerSize: Int): Int {
         var startIndex = 0
         var indexOfMarker = markerSize
