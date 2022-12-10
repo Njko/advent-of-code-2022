@@ -3,6 +3,7 @@ package exercises
 
 import readInput
 
+// https://www.youtube.com/watch?v=6d6FXFh-UdA
 fun main() {
     fun part1(input: List<String>): Int {
         input.drop(1).dropLast(1).forEach { line ->

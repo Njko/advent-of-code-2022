@@ -12,6 +12,7 @@ sealed class Node {
 
 fun Node.Folder.add(child: Node) = this.children.add(child)
 
+// https://www.youtube.com/watch?v=Q819VW8yxFo&t=2090s
 fun main() {
     fun part1(input: List<String>): Int {
         /*var startRecording = false
